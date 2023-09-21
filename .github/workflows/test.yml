@@ -13,7 +13,7 @@ jobs:
         with:
           LOCUSTFILE: "locustfile.py"
           REQUIREMENTS: "requirements.txt"
-          URL:  "https://google.com"
+          URL:  "https://apidev.sga.bet"
           USERS: "6"
           RATE: "6"
           RUNTIME: "10s"
