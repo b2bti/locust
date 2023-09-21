@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Run Load Test
-        uses: apardo04/locust-github-action@master
+        uses: b2bti/locust@main
         with:
           LOCUSTFILE: "locustfile.py"
           REQUIREMENTS: "requirements.txt"
