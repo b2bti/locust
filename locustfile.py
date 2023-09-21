@@ -4,7 +4,7 @@ import Common.formatacoes
 
 
 class usuarioFinalQueFazLogin(FastHttpUser):
-	host = "https://apidev.sga.bet"
+	host = "https://apidev-env.eu-west-1.elasticbeanstalk.com"
 
 	@task
 	def login_usuario_final_mm(self):
