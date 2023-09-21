@@ -1,5 +1,5 @@
 name: 'Locust Load Test'
-author: 'Adrian Pardo'
+author: 'Edgar Menezes'
 description: 'Load Test an application using Locust'
 inputs:
   LOCUSTFILE:
@@ -14,11 +14,11 @@ inputs:
   USERS:
     description: 'Number of Users to spawn. Defaults to 5.'
     required: false
-    default: '5'
+    default: '1'
   RATE:
     description: 'Specify the hatch rate (number of users to spawn per second). Defaults to 5.'
     required: false
-    default: '5'
+    default: '1'
   RUNTIME:
     description: 'Specify the run time for a test. Defaults to 10 seconds.'
     required: false
