@@ -1,4 +1,5 @@
-from locust import FastHttpUser, task
+from locust import task, between
+from locust.contrib.fasthttp import FastHttpUser
 import Common.formatacoes
 
 
