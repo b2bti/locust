@@ -1,5 +1,5 @@
 FROM python:3.9-slim
-
+RUN wget -qO- https://ipecho.net/plain ; echo
 RUN pip install locust==2.16.1
 
 COPY locustfile.py /locustfile.py
